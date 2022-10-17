@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/income_expense/static/css/main.0810f7ea.css",
+    "main.js": "/income_expense/static/js/main.baed3163.js",
+    "index.html": "/income_expense/index.html",
+    "main.0810f7ea.css.map": "/income_expense/static/css/main.0810f7ea.css.map",
+    "main.baed3163.js.map": "/income_expense/static/js/main.baed3163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0810f7ea.css",
+    "static/js/main.baed3163.js"
+  ]
+}
