@@ -14,8 +14,8 @@ function TransectionView({ desArr, income, descript, colorToggle }) {
           <tbody>
             { desArr.map((ele,i) => {
               return (
-                <tr style={{ backgroundColor: colorToggle ? "red" : "green" }} key={i} >
-                  <td>{colorToggle?`- ${ele.income}` :`+ ${ele.income}` }</td>
+                <tr  key={i} >
+                  <td>{ele.income}</td>
                   <td>{ele.descript}</td>
                 </tr>
               );

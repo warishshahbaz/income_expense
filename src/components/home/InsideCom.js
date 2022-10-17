@@ -9,14 +9,16 @@ function InsideCom({ hideCom,incomeDesc, setIncomDescription, setChecked, checke
     const[colorToggle,setColorTogle] = useState(false);
 
     const radioIncomeHandle = (e) => {
-        setChecked(true)
+        setChecked(true);
+        setColorTogle(true)
     }
     const radioExpenseHandle = (e) => {
         setChecked(false)
+        setColorTogle(false)
     }
     const addtransection = () => {
         if(income === "" || descript === "" ){
-            alert("Please Fill Amount")
+            alert("Please Fill Amount");
         }
         else if (checked) {
             setColorTogle(false);
